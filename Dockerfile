@@ -8,4 +8,4 @@ RUN dpkg --add-architecture i386 \
 && mkdir /steamcmd \
 && wget https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz -O /steamcmd/steamcmd_linux.tar.gz \
 && tar -xzvf /steamcmd/steamcmd_linux.tar.gz -C /steamcmd 
-WORKDIR /dts/bin64
+WORKDIR /steamcmd
